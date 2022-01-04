@@ -56,7 +56,7 @@
        <string>:</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="program_kind">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -116,7 +116,7 @@
        </property>
       </item>
      </widget>
-     <widget class="QComboBox" name="comboBox_2">
+     <widget class="QComboBox" name="program_basis_type">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -124,6 +124,9 @@
         <width>191</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="currentText">
+       <string notr="true">FFF</string>
       </property>
       <item>
        <property name="text">
@@ -903,6 +906,9 @@ p, li { white-space: pre-wrap; }
    </property>
   </action>
   <action name="actionSave">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Save</string>
    </property>
