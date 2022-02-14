@@ -7,7 +7,9 @@ class MyForm(QMainWindow):
     super().__init__()
     self.ui = Ui_MainWindow()
     self.ui.setupUi(self)
-    self.ui.help_dropdown.activated.connect(self.disp_help)
+#    self.ui.help_dropdown.activated.connect(self.disp_help)
+    self.ui.force_list_frame.hide()
+    self.ui.input_list_frame.hide()
     self.ui.actionSave.triggered.connect(self.save)
 
   def disp_help(self):
