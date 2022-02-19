@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="program">
-    <file>grid_size.svg</file>
-    <file>Conjugate_reality_condition.svg</file>
-    <file>INCOMPRESS_FLUID.svg</file>
-  </qresource>
-</RCC>
