@@ -7,13 +7,15 @@ import docutils.core
 from dataclasses import fields
 
 from PyQt5.QtWidgets import QDialog, QMainWindow, QApplication, QPushButton
-from PyQt5.QtWidgets import  QFormLayout, QLabel, QWidget, QSpinBox, QDoubleSpinBox, QCheckBox
+from PyQt5.QtWidgets import QFormLayout, QLabel, QWidget, QSpinBox, QDoubleSpinBox
+from PyQt5.QtWidgets import QCheckBox, QListWidgetItem
 # from PyQt5.QtWebEngineWidgets import QWebView
 from PyQt5.QtCore import Qt
 from PyQt5 import QtGui
 
 from TarangGUI import *
 from config.FLUID_INCOMPRESS import Forces
+from config.FLUID_INCOMPRESS import Output
 
 class MyForm(QMainWindow):
   def __init__(self):
@@ -24,19 +26,42 @@ class MyForm(QMainWindow):
     # self.ui.force_list_frame.hide()
     # self.ui.input_list_frame.hide()
     self.ui.actionSave.triggered.connect(self.save)
-    self.ui.listWidget_3.itemDoubleClicked.connect(self.Add_force)
-    
+    self.ui.listWidget_4.itemDoubleClicked.connect(self.Add_force)
+    self.ui.comboBox_2.activated.connect(self.Add_output)
+
     reg = re.compile("Forces.(.*)'")
 
+    i = 0
     for c in self.Get_list_of_classes(Forces):
-        self.ui.listWidget_3.addItem(reg.findall(str(c))[0])
+        name = reg.findall(str(c))[0]
+        name = name.replace("_", " ")
+        name = name.capitalize()
+        item = QListWidgetItem(name)
+        item.setData(1, i)
+        self.ui.listWidget_4.addItem(item)
+        i = i + 1
 
-    # self.ui.listWidget_3.itemClicked.connect(self.Add_force)
-    self.ui.move_Force_down_pushButton_2.clicked.connect(self.Add_force)
-    self.ui.remove_force.clicked.connect(self.Remove_force)
 
-    self.ui.move_up_Force_pushButton.clicked.connect(self.Move_up_force)
-    self.ui.move_Force_down_pushButton.clicked.connect(self.Move_down_force)
+    reg = re.compile("Output.(.*)'")
+
+    i = 0
+    for c in self.Get_list_of_classes(Output):
+        name = reg.findall(str(c))[0]
+        name = name.replace("_", " ")
+        name = name.capitalize()
+        # item = QListWidgetItem(name)
+        # item.setData(1, i)
+        self.ui.comboBox_2.addItem(name)
+        i = i + 1
+
+    # self.ui.comboBox_2.sortItems()
+
+    # self.ui.listWidget_4.itemClicked.connect(self.Add_force)
+    # self.ui.add_Force_pushButton.clicked.connect(self.Add_force)
+    self.ui.pushButton.clicked.connect(self.Remove_output)
+
+    # self.ui.move_up_Force_pushButton.clicked.connect(self.Move_up_force)
+    # self.ui.move_Force_down_pushButton.clicked.connect(self.Move_down_force)
     # for x in range(3):
     #   for y in range(3):
     #       hbox = QHBoxLayout()
@@ -48,16 +73,18 @@ class MyForm(QMainWindow):
     # self.print_classes()
 
   def Add_force(self):
-    self.ui.listWidget.addItem(self.ui.listWidget_3.currentItem().text())
+    item = self.ui.listWidget_4.takeItem(self.ui.listWidget_4.currentRow())
+    # item.setData(0, self.ui.listWidget_4.currentIndex())
+    self.ui.listWidget_5.addItem(item)
     w = QWidget()
     form = QFormLayout()
     form.setWidget(0, QFormLayout.LabelRole, QLabel("Force: "))
-    form.setWidget(0, QFormLayout.FieldRole, QLabel(self.ui.listWidget_3.currentItem().text()))
+    form.setWidget(0, QFormLayout.FieldRole, QLabel(item.text()))
     w.setLayout(form)
-    index = self.ui.stackedWidget.insertWidget(1000, w)
-    self.ui.stackedWidget.setCurrentIndex(index)
+    index = self.ui.stackedWidget_4.insertWidget(1000, w)
+    self.ui.stackedWidget_4.setCurrentIndex(index)
     l = self.Get_list_of_classes(Forces)
-    c = l[self.ui.listWidget_3.currentRow()]
+    c = l[self.ui.listWidget_4.currentRow()]
 
     schema = c.__pydantic_model__.schema()
     properties = schema['properties']
@@ -77,24 +104,48 @@ class MyForm(QMainWindow):
       i += 2
 
   def Remove_force(self):
-    self.ui.listWidget.takeItem(self.ui.listWidget.currentRow())
+    item = self.ui.listWidget_5.takeItem(self.ui.listWidget_5.currentRow())
+    self.ui.listWidget_4.addItem(item)
+    self.ui.listWidget_4.sortItems()
 
-  def Move_up_force(self):
-    row = self.ui.listWidget.currentRow()
+  def Add_output(self):
+    item = self.ui.comboBox_2.currentText()
+    # item.setData(0, self.ui.listWidget_4.currentIndex())
+    self.ui.listWidget.addItem(item)
+    w = QWidget()
+    form = QFormLayout()
+    form.setWidget(0, QFormLayout.LabelRole, QLabel("Module: "))
+    form.setWidget(0, QFormLayout.FieldRole, QLabel(item))
+    w.setLayout(form)
+    index = self.ui.stackedWidget.insertWidget(1000, w)
+    self.ui.stackedWidget.setCurrentIndex(index)
+    l = self.Get_list_of_classes(Output)
+    c = l[self.ui.comboBox_2.currentIndex()]
 
-    if row>=1:
-      item = self.ui.listWidget.takeItem(row)
-      self.ui.listWidget.insertItem(row-1, item.text())
-      self.ui.listWidget.setCurrentRow(row-1)
+    schema = c.__pydantic_model__.schema()
+    properties = schema['properties']
 
-  def Move_down_force(self):
-    row = self.ui.listWidget.currentRow()
-    count = self.ui.listWidget_3.count()
+    print(schema)
+    i = 2
+    for f in properties:
+      print(f)
+      form.setWidget(i, QFormLayout.LabelRole, QLabel(f))
+      if properties[f]['type'] == 'integer':
+        form.setWidget(i, QFormLayout.FieldRole, QSpinBox())
+      if properties[f]['type'] == 'number':
+        form.setWidget(i, QFormLayout.FieldRole, QDoubleSpinBox())
+      if properties[f]['type'] == 'boolean':
+        form.setWidget(i, QFormLayout.FieldRole, QCheckBox(""))
+        # print(f + " is int")
+      i += 2
 
-    if row>=0 and row<count-1:
-      item = self.ui.listWidget.takeItem(row)
-      self.ui.listWidget.insertItem(row+1, item.text())
-      self.ui.listWidget.setCurrentRow(row+1)
+  def Remove_output(self):
+    # print(self.ui.stackedWidget.currentIndex())
+    self.ui.stackedWidget.removeWidget(self.ui.stackedWidget.widget(self.ui.listWidget.currentRow()))
+    item = self.ui.listWidget.takeItem(self.ui.listWidget.currentRow())
+    # self.ui.comboBox_2.addItem(item)
+    # self.ui.comboBox_2.sortItems()
+
 
   def Get_list_of_classes(self, module):
     l = []
