@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>983</width>
+    <width>979</width>
     <height>752</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="energy_transfer_tab">
       <property name="currentIndex">
-       <number>5</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="program">
        <attribute name="title">
@@ -40,7 +40,7 @@
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>60</y>
           <width>16</width>
           <height>17</height>
@@ -53,7 +53,7 @@
        <widget class="QComboBox" name="program_kind">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>54</y>
           <width>191</width>
           <height>31</height>
@@ -113,7 +113,7 @@
        <widget class="QComboBox" name="program_basis_type">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>94</y>
           <width>191</width>
           <height>31</height>
@@ -159,7 +159,7 @@
        <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>100</y>
           <width>16</width>
           <height>17</height>
@@ -172,7 +172,7 @@
        <widget class="QLabel" name="label_3">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>140</y>
           <width>16</width>
           <height>17</height>
@@ -185,7 +185,7 @@
        <widget class="QComboBox" name="program_iter_or_diag">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>134</y>
           <width>191</width>
           <height>31</height>
@@ -218,7 +218,7 @@
        <widget class="QLabel" name="label_4">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>180</y>
           <width>16</width>
           <height>17</height>
@@ -231,7 +231,7 @@
        <widget class="QComboBox" name="program_alias_option">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>174</y>
           <width>191</width>
           <height>31</height>
@@ -264,7 +264,7 @@
        <widget class="QLabel" name="label_5">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>216</y>
           <width>16</width>
           <height>17</height>
@@ -290,7 +290,7 @@
        <widget class="QComboBox" name="program_dt_option">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>400</y>
           <width>191</width>
           <height>31</height>
@@ -310,7 +310,7 @@
        <widget class="QLabel" name="label_6">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>250</y>
           <width>16</width>
           <height>17</height>
@@ -343,13 +343,13 @@
          </rect>
         </property>
         <property name="text">
-         <string>apply_strong_realitycond_alltime_switch</string>
+         <string>apply_strong_realitycond</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_9">
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>250</x>
           <y>280</y>
           <width>16</width>
           <height>17</height>
@@ -369,13 +369,13 @@
          </rect>
         </property>
         <property name="text">
-         <string>apply_weak_realitycond_alltime_switch</string>
+         <string>apply_weak_realitycond</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_11">
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>250</x>
           <y>310</y>
           <width>16</width>
           <height>17</height>
@@ -401,7 +401,7 @@
        <widget class="QLabel" name="label_13">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>340</y>
           <width>16</width>
           <height>17</height>
@@ -414,7 +414,7 @@
        <widget class="QLabel" name="label_16">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>370</y>
           <width>16</width>
           <height>17</height>
@@ -453,7 +453,7 @@
        <widget class="QLabel" name="label_19">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>410</y>
           <width>16</width>
           <height>17</height>
@@ -466,7 +466,7 @@
        <widget class="QComboBox" name="program_integration_scheme">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>210</y>
           <width>191</width>
           <height>31</height>
@@ -504,7 +504,7 @@
        <widget class="QLabel" name="label_20">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>440</y>
           <width>16</width>
           <height>17</height>
@@ -530,7 +530,7 @@
        <widget class="QLabel" name="label_22">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>250</x>
           <y>470</y>
           <width>16</width>
           <height>17</height>
@@ -540,23 +540,10 @@
          <string>:</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="program_sincostr_switch">
-        <property name="geometry">
-         <rect>
-          <x>250</x>
-          <y>470</y>
-          <width>171</width>
-          <height>25</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>FFF</string>
-        </property>
-       </widget>
        <widget class="QCheckBox" name="checkBox">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>250</y>
           <width>92</width>
           <height>23</height>
@@ -569,7 +556,7 @@
        <widget class="QCheckBox" name="checkBox_2">
         <property name="geometry">
          <rect>
-          <x>360</x>
+          <x>260</x>
           <y>280</y>
           <width>92</width>
           <height>23</height>
@@ -582,7 +569,7 @@
        <widget class="QCheckBox" name="checkBox_3">
         <property name="geometry">
          <rect>
-          <x>360</x>
+          <x>260</x>
           <y>310</y>
           <width>92</width>
           <height>23</height>
@@ -595,7 +582,7 @@
        <widget class="QCheckBox" name="checkBox_4">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>340</y>
           <width>92</width>
           <height>23</height>
@@ -608,7 +595,7 @@
        <widget class="QCheckBox" name="checkBox_5">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>370</y>
           <width>92</width>
           <height>23</height>
@@ -621,7 +608,7 @@
        <widget class="QCheckBox" name="checkBox_6">
         <property name="geometry">
          <rect>
-          <x>250</x>
+          <x>260</x>
           <y>440</y>
           <width>92</width>
           <height>23</height>
@@ -629,71 +616,6 @@
         </property>
         <property name="text">
          <string/>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_21">
-        <property name="geometry">
-         <rect>
-          <x>250</x>
-          <y>510</y>
-          <width>191</width>
-          <height>25</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="program_sincostr_switch_26">
-        <property name="geometry">
-         <rect>
-          <x>70</x>
-          <y>510</y>
-          <width>171</width>
-          <height>17</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>diagnostic_procedures</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_219">
-        <property name="geometry">
-         <rect>
-          <x>240</x>
-          <y>510</y>
-          <width>16</width>
-          <height>17</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>[</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_218">
-        <property name="geometry">
-         <rect>
-          <x>450</x>
-          <y>510</y>
-          <width>16</width>
-          <height>17</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>]</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_217">
-        <property name="geometry">
-         <rect>
-          <x>230</x>
-          <y>510</y>
-          <width>16</width>
-          <height>17</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>:</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_17">
@@ -783,6 +705,552 @@
           <string>diagnostic_procedures</string>
          </property>
         </item>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>460</y>
+          <width>231</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page">
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>X</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_47">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>21</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Y</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_55">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Z</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_5" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>10</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_6" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>40</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_7" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>70</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_5">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2">
+         <widget class="QLabel" name="label_56">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>21</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>X</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_57">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Y</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_58">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Z</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>10</y>
+            <width>181</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_7">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>40</y>
+            <width>181</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_8">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_4" native="true">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>70</y>
+            <width>181</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_9">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_3">
+         <widget class="QLabel" name="label_60">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>X</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_62">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Y</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_63">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Z</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_8" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>10</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_10">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_11">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_9" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>40</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_12">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_13">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_10" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>70</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_14">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fourier</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <widget class="QLabel" name="label_64">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>X</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_65">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>16</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Y</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_66">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>21</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Z</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_11" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>10</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_15">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_16">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_12" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>40</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_17">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>112</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_18">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>61</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_13" native="true">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>70</y>
+            <width>120</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <widget class="QRadioButton" name="radioButton_19">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sin</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_20">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>51</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cos</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
        </widget>
       </widget>
       <widget class="QWidget" name="field_tab">
@@ -1414,6 +1882,71 @@
          </rect>
         </property>
        </widget>
+       <widget class="QLabel" name="program_sincostr_switch_26">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>440</y>
+          <width>171</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>diagnostic_procedures</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_21">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>440</y>
+          <width>191</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_217">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>440</y>
+          <width>16</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_218">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>440</y>
+          <width>16</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>]</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_219">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>440</y>
+          <width>16</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>[</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="time_tab">
        <attribute name="title">
@@ -1580,7 +2113,7 @@
        <attribute name="title">
         <string>input</string>
        </attribute>
-       <widget class="QComboBox" name="FLUID_INCOMPRESS_Input_list">
+       <widget class="QComboBox" name="Input_list">
         <property name="geometry">
          <rect>
           <x>30</x>
@@ -1589,66 +2122,6 @@
           <height>31</height>
          </rect>
         </property>
-        <item>
-         <property name="text">
-          <string>1: Complex Field</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="2">2: Reduced Complex Field</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="3">3: Real Field</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="4">4: Modes</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="5">5: Energy Helicity Spectrum</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="6">6: Taylor Green</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="7">7: ABC</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="8">8: Non helical to helical</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="400">400: Vortex</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="420">420: Channel Flow</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="501">501: User Defined 1</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string extracomment="502">502: User Defined 2</string>
-         </property>
-        </item>
        </widget>
        <widget class="QStackedWidget" name="stackedWidget_2">
         <property name="geometry">
@@ -1656,8 +2129,11 @@
           <x>30</x>
           <y>70</y>
           <width>401</width>
-          <height>181</height>
+          <height>531</height>
          </rect>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
         </property>
         <widget class="QWidget" name="page_12">
          <widget class="QLabel" name="label_96">
@@ -2345,6 +2821,16 @@
          </widget>
         </widget>
        </widget>
+       <widget class="QStackedWidget" name="stackedWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>30</y>
+          <width>491</width>
+          <height>581</height>
+         </rect>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="force_tab">
        <attribute name="title">
@@ -2370,20 +2856,14 @@
             <property name="title">
              <string>Help</string>
             </property>
-            <widget class="QTextBrowser" name="textBrowser_2">
+            <widget class="QStackedWidget" name="stackedWidget_5">
              <property name="geometry">
               <rect>
-               <x>0</x>
-               <y>20</y>
-               <width>461</width>
-               <height>291</height>
+               <x>10</x>
+               <y>30</y>
+               <width>451</width>
+               <height>251</height>
               </rect>
-             </property>
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-               <horstretch>1</horstretch>
-               <verstretch>1</verstretch>
-              </sizepolicy>
              </property>
             </widget>
            </widget>
@@ -2473,6 +2953,12 @@
           </item>
           <item row="2" column="0">
            <widget class="QGroupBox" name="groupBox_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="title">
              <string>Available Forces</string>
             </property>
@@ -2482,7 +2968,7 @@
                <x>0</x>
                <y>20</y>
                <width>461</width>
-               <height>271</height>
+               <height>267</height>
               </rect>
              </property>
              <property name="sizePolicy">
@@ -2511,7 +2997,7 @@
                <x>0</x>
                <y>20</y>
                <width>461</width>
-               <height>271</height>
+               <height>267</height>
               </rect>
              </property>
              <property name="sizePolicy">
@@ -2531,104 +3017,1043 @@
        <attribute name="title">
         <string>output </string>
        </attribute>
-       <widget class="QWidget" name="horizontalLayoutWidget">
+       <widget class="QTabWidget" name="tabWidget_2">
         <property name="geometry">
          <rect>
-          <x>29</x>
-          <y>40</y>
+          <x>30</x>
+          <y>10</y>
           <width>901</width>
-          <height>591</height>
+          <height>611</height>
          </rect>
         </property>
-        <layout class="QHBoxLayout" name="horizontalLayout_3">
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>Iteration</string>
+         </attribute>
+         <widget class="QWidget" name="horizontalLayoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>901</width>
+            <height>591</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
            <item>
-            <widget class="QLabel" name="label_18">
-             <property name="text">
-              <string>Add Module:</string>
-             </property>
-            </widget>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>Modules:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="listWidget">
+               <item>
+                <property name="text">
+                 <string>Global properties</string>
+                </property>
+                <property name="checkState">
+                 <enum>Unchecked</enum>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Complex field</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Field reduced</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Real field</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>field_k</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Field r</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Spectrum</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Pressure</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Pressure Spectrum</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Flux</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Shell to Shell</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ring spectrum</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ring to ring</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cylindrical ring to ring</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Tk shell spectrum</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Tk Cylindrical spectrum</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cout</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
            </item>
            <item>
-            <widget class="QComboBox" name="comboBox_2"/>
-           </item>
-           <item>
-            <widget class="QLabel" name="label_21">
-             <property name="text">
-              <string>Active modules:</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QListWidget" name="listWidget"/>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton">
-             <property name="text">
-              <string>Remove module</string>
-             </property>
-            </widget>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QGroupBox" name="groupBox_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="title">
+                <string>Configuration</string>
+               </property>
+               <widget class="QStackedWidget" name="stackedWidget">
+                <property name="geometry">
+                 <rect>
+                  <x>9</x>
+                  <y>29</y>
+                  <width>431</width>
+                  <height>261</height>
+                 </rect>
+                </property>
+                <widget class="QWidget" name="page_5">
+                 <widget class="QWidget" name="formLayoutWidget_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_2">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_18">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_20">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_67">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_2"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_69">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_21">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_68">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_103">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_104">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_6">
+                 <widget class="QWidget" name="formLayoutWidget_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_3">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_70">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_22">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_71">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_4"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_72">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_23">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_74">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_75">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_102">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_7">
+                 <widget class="QWidget" name="formLayoutWidget_4">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_4">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_105">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_24">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_106">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_6"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_107">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_25">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_108">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_109">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_110">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_8">
+                 <widget class="QWidget" name="formLayoutWidget_5">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_5">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_111">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_26">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_112">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_7"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_8"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_113">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_27">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_114">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_115">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_116">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_9">
+                 <widget class="QWidget" name="formLayoutWidget_6">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_6">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_117">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_29">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_118">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_9"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_10"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_119">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_30">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_120">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_121">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_122">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_10">
+                 <widget class="QWidget" name="formLayoutWidget_7">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_7">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_123">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_31">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_124">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_11"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_12"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_125">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_32">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_126">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_127">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_128">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_19">
+                 <widget class="QWidget" name="formLayoutWidget_8">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_8">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_129">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_33">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_130">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_13"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_14"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_131">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_34">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_132">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_133">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_134">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_28">
+                 <widget class="QWidget" name="formLayoutWidget_9">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_9">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_135">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_35">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_136">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_15"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_16"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_137">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_36">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_138">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_139">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_140">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_29">
+                 <widget class="QWidget" name="formLayoutWidget_10">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_10">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_141">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_37">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_142">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_17"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_18"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_143">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_38">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_144">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_145">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_146">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_30">
+                 <widget class="QWidget" name="formLayoutWidget_11">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_11">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_147">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_39">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_148">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_19"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_20"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_149">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_40">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_150">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_151">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_152">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_27">
+                 <widget class="QWidget" name="formLayoutWidget_12">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>421</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <layout class="QFormLayout" name="formLayout_12">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_153">
+                     <property name="text">
+                      <string>turnon</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QCheckBox" name="checkBox_41">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_154">
+                     <property name="text">
+                      <string>save first</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_21"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QDoubleSpinBox" name="doubleSpinBox_22"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_155">
+                     <property name="text">
+                      <string>save last</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QCheckBox" name="checkBox_42">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_156">
+                     <property name="text">
+                      <string>save interval</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_157">
+                     <property name="text">
+                      <string>Module</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_158">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_26"/>
+                <widget class="QWidget" name="page_25"/>
+                <widget class="QWidget" name="page_24"/>
+                <widget class="QWidget" name="page_23"/>
+                <widget class="QWidget" name="page_22"/>
+                <widget class="QWidget" name="page_21"/>
+                <widget class="QWidget" name="page_20"/>
+                <widget class="QWidget" name="page_11"/>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="title">
+                <string>Help</string>
+               </property>
+               <widget class="QTextBrowser" name="textBrowser_3">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>20</y>
+                  <width>441</width>
+                  <height>271</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>1</horstretch>
+                  <verstretch>1</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
            </item>
           </layout>
-         </item>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_2">
-           <item>
-            <widget class="QGroupBox" name="groupBox_7">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="title">
-              <string>Configuration</string>
-             </property>
-             <widget class="QStackedWidget" name="stackedWidget">
-              <property name="geometry">
-               <rect>
-                <x>9</x>
-                <y>29</y>
-                <width>431</width>
-                <height>261</height>
-               </rect>
-              </property>
-             </widget>
-            </widget>
-           </item>
-           <item>
-            <widget class="QGroupBox" name="groupBox_6">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="title">
-              <string>Help</string>
-             </property>
-             <widget class="QTextBrowser" name="textBrowser_3">
-              <property name="geometry">
-               <rect>
-                <x>0</x>
-                <y>20</y>
-                <width>441</width>
-                <height>271</height>
-               </rect>
-              </property>
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                <horstretch>1</horstretch>
-                <verstretch>1</verstretch>
-               </sizepolicy>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </item>
-        </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_7">
+         <attribute name="title">
+          <string>Diagnostics</string>
+         </attribute>
+        </widget>
        </widget>
       </widget>
       <widget class="QWidget" name="tab_8">
@@ -4108,11 +5533,6 @@
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="tab_6">
-       <attribute name="title">
-        <string>Page</string>
-       </attribute>
-      </widget>
      </widget>
     </item>
    </layout>
@@ -4122,7 +5542,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>983</width>
+     <width>979</width>
      <height>22</height>
     </rect>
    </property>
@@ -4198,7 +5618,6 @@
   <tabstop>program_alias_option</tabstop>
   <tabstop>program_integration_scheme</tabstop>
   <tabstop>program_dt_option</tabstop>
-  <tabstop>program_sincostr_switch</tabstop>
   <tabstop>lineEdit_2</tabstop>
   <tabstop>lineEdit_3</tabstop>
   <tabstop>lineEdit_4</tabstop>
@@ -4210,7 +5629,7 @@
  <resources/>
  <connections>
   <connection>
-   <sender>FLUID_INCOMPRESS_Input_list</sender>
+   <sender>Input_list</sender>
    <signal>currentIndexChanged(int)</signal>
    <receiver>stackedWidget_2</receiver>
    <slot>setCurrentIndex(int)</slot>
@@ -4254,6 +5673,54 @@
     <hint type="destinationlabel">
      <x>582</x>
      <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>program_basis_type</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>stackedWidget_3</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>360</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>listWidget_5</sender>
+   <signal>currentRowChanged(int)</signal>
+   <receiver>stackedWidget_5</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>318</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Input_list</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>stackedWidget_6</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>236</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>154</y>
     </hint>
    </hints>
   </connection>

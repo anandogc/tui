@@ -1,12 +1,6 @@
 import dataclasses
 from typing import List, Optional
-
-from pydantic import Field
 from pydantic.dataclasses import dataclass
-
-# @dataclass
-# class Decay:
-#     pass
 
 
 @dataclass
@@ -17,6 +11,7 @@ class Global:
 
 @dataclass
 class complex_field:
+   """Outputs the complec field of size Nx,Ny,Nz/2
    time_start: float = dataclasses.field(default=0.0)
    time_interval: float = dataclasses.field(default=0.0)
    time_last: bool = dataclasses.field(default=True)

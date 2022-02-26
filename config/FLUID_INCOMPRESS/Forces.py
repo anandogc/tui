@@ -10,6 +10,7 @@ from pydantic.dataclasses import dataclass
 
 @dataclass
 class Carati_scheme:
+   """Carati scheme help"""
    force_type: str = dataclasses.field(default="ENERGY_SUPPLY", metadata={"options": ["ENERGY_SUPPLY", "CONSTANT_ENERGY"]})
    global_alpha_beta: bool = dataclasses.field(default=True)
 
@@ -20,6 +21,7 @@ class Carati_scheme:
 
 @dataclass
 class Taylor_Green:
+   """Taylor Green help"""
    k0: int = dataclasses.field(default=1)
    force_amp: float = dataclasses.field(default=0.1)
 
